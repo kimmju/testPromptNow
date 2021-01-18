@@ -7,7 +7,5 @@ import org.json.JSONObject
 
 class RvViewHolder (view: View) : RecyclerView.ViewHolder(view) {
     var txView : TextView = view.findViewById(R.id.tx_Item)
-    fun bindData(datas : JSONObject){
-        txView
-    }
+
 }
